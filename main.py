@@ -64,7 +64,7 @@ while True:
         NewItemDescription = input("Please enter new Pizza Ingredients: ")
         # inserting new item into database
         
-        # ACTIVITY 3.1
+        # ACTIVITY 3
         # Please insert add item (insert) sql command here
         sql = ""
 
@@ -73,7 +73,7 @@ while True:
         connection.commit()
         # running sql query to retrive updated item list
 
-        # ACTIVITY 3.2
+        # ACTIVITY 4
         # Please insert list item (select) sql command here
         sql_select_Query = ""
         
@@ -138,7 +138,7 @@ while True:
         # Error message, for invalid command
         # printing all supported commands
 
-        # ACTIVITY 4 & 5
+        # ACTIVITY 5 & 6
         # print error message here and all possible commands (use seperate print statements)
         
         print("")
